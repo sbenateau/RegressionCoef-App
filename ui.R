@@ -16,7 +16,7 @@ shinyUI(fluidPage(
   
     splitLayout(
       #Input widjets
-      radioButtons("select", label = "select an example", 
+      radioButtons("select", label = "Select an example", 
                          choices = list("Example 1" = 1, "Example 2" = 2,
                                         "Example 3" = 3,"Example 4" = 4,"Example 5" = 5), selected = 1),
       sliderInput("corr", label = "Correlation coefficient",
